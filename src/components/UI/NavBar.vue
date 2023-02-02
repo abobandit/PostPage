@@ -2,8 +2,10 @@
 <div class="navbar">
   <h1 @click="$router.push('/')">Салам алейкум</h1>
   <div class="navbar__buttons">
-    <button-ui @click="$router.push('/posts')">Посты</button-ui>
+    <button-ui @click="$router.push('/store')">Посты</button-ui>
     <button-ui @click="$router.push('/about')" style="margin-left: 10px" to="/about">О сайте</button-ui>
+    <button-ui @click="$router.push('/posts')" style="margin-left: 10px" to="/about">О сайте</button-ui>
+    <button-ui @click="$router.push('/composition')" style="margin-left: 10px" to="/about">О сайте</button-ui>
   </div>
 </div>
 </template>
